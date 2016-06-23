@@ -6,11 +6,9 @@ Building a RESTful API with Node.js, Express router, mongo.db
 	return JSON data
 	log all requests to console with middleware
 
-
-First Steps:
-	define Node packages
-	start server using Express
-	define the model
-	declare routes using express
+files:
+	users.js, a users schema for use with the database
+	server.js, everythings going on in here
+	package.json. dependancies, app info etc etc
 	
 
