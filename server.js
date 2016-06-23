@@ -28,6 +28,10 @@ app.use(function(req, res, next) {
 		content-type, Authorization');
 	next();
 });
+
+// connect to the local database
+mongoose.connect('mongodb://localhost:27017/node_test')
+
 // MIDDLEWARE ================================================================
 // log all requests to the console
 app.use(morgan('dev'));

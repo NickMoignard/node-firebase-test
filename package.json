@@ -1,3 +1,12 @@
+/*
+	packages:
+		morgan: logs all requests to the console
+		express: node framework
+		mongoose: ODM used to connect with the mongoDB database
+		body-parser: pulls POST content from HTTP requests
+		bcrypt-nodejs: password hashing
+*/
+
 {
   "name": "mean_machine_restful",
   "main": "server.js",
